@@ -4,7 +4,7 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 puts "Welcome to Tic Tac Toe!"
-board = display_board("./lib/move.rb")
+board = display_board("./lib/move.rb", "board")
 puts '   |   |   '
 puts '-----------'
 puts '   |   |   '
