@@ -11,8 +11,9 @@ def input_to_index(user_input = ["1", "2", "3", "4", "5", "6", "7", "8","9"])
   (user_input).to_i-1
 end
 
-def move(user_input, index = 0, value = "X")
+def move(user_input, index = 0 || 4, value = "X" || "O")
 user_input[0] = value
+user_input[4]
 end
 
 
