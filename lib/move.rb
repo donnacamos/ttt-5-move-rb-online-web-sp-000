@@ -17,7 +17,7 @@ end
 
 user_input(board, 0, "X")
   
-
+board
 
 
 
