@@ -21,7 +21,7 @@ move(board, 0, "X")
 # The element at index 0 of array 'board' is set to the value "X"
 board #=> ["X", " ", " "]
 
-
+move(board, 8)
 
 
 
