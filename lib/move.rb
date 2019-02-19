@@ -15,9 +15,7 @@ def move(user_input, index = 0, value = "X")
 user_input[1] = value
 end
 
-user_input(board, 0, "X")
-  
-board
+
 
 
 
