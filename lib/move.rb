@@ -11,12 +11,30 @@ def input_to_index(user_input = ["1", "2", "3", "4", "5", "6", "7", "8","9"])
   (user_input).to_i-1
 end
 
-def move(board = [" ", " ", " "], index = 0, value = "X")
-board[0] = value
 
+board = [" ", " ", " "]
+def update_array_at_with(array, index, value)
+  array[index] = value
 end
+ 
+update_array_at_with(board, 0, "X")
+# The element at index 0 of array 'board' is set to the value "X"
+board #=> ["X", " ", " "]
 
-move(board, 0, "X")
+
+
+
+
+
+
+
+
+#def move(board = [" ", " ", " "], index = 0, value = "X")
+#board[0] = value
+
+#end
+
+#move(board, 0, "X")
 
 
 
