@@ -18,7 +18,7 @@ end
 
 
 def move(user_input, index = 4, value = "O")
-user_input[0] = value
+user_input[4] = value
 
 end
 
