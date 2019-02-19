@@ -11,9 +11,11 @@ def input_to_index(user_input = ["1", "2", "3", "4", "5", "6", "7", "8","9"])
   (user_input).to_i-1
 end
 
-def move(display_board, user_input, char = "X" || "O")
-
+def move(user_input, 0, "X")
+user_input[0] = "X"
 end
+
+user_input(board, 0, "X")
   
 
 
