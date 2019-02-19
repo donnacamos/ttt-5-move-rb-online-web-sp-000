@@ -17,7 +17,7 @@ user_input[0] = value[0]
 end
 
 
-def move(user_input, index = 4, value = "X" || "O")
+def move(user_input, index = 4, value = ["X", "O"])
 user_input[4] = value
 
 end
