@@ -12,10 +12,7 @@ def input_to_index(user_input = ["1", "2", "3", "4", "5", "6", "7", "8","9"])
 end
 
 def move(display_board, user_input, char = "X" || "O")
-puts "#{board[0]}" = "X"
-display_board
-puts "#{board[4]}" = "O"
-display_board
+
 end
   
 
