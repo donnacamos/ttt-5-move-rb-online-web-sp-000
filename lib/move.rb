@@ -13,6 +13,8 @@ end
 
 def move(display_board, user_input, char = "X" || "O")
 puts "#{board[0]}" = "X"
+display_board
+puts "#{board[4]}" = "O"
 
 end
   
