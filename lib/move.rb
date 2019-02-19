@@ -13,7 +13,7 @@ end
 
 def move(user_input, index = 0 || 4, value = "X" || "O")
 user_input[0] = value
-user_input[4]
+user_input[4] = "O"
 end
 
 
