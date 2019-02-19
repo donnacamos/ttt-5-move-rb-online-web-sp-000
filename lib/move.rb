@@ -10,7 +10,7 @@ end
 def input_to_index(user_input = ["1", "2", "3", "4", "5", "6", "7", "8","9"])
   '5'.to_i = 5
   5-1
-end
+
 end
 
 
