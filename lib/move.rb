@@ -13,8 +13,8 @@ end
 
 
 board = [" ", " ", " "]
-def move(array, index, value = "X")
-  array[index] = value
+def move(board, index, value = "X")
+ board[index] = value
 end
  
 move(board, 0, "X")
